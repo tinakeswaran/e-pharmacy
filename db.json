@@ -1,0 +1,810 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@pharma.com",
+      "passwordHash": "password",
+      "role": "Admin",
+      "createdAt": "2026-04-13T12:30:18.000Z"
+    },
+    {
+      "id": "bwc7d7y15",
+      "username": "tinakes",
+      "email": "dina@gmail.com",
+      "passwordHash": "123",
+      "role": "User",
+      "createdAt": "2026-04-13T08:41:22.166Z"
+    },
+    {
+      "id": "0m8e1wgc2",
+      "username": "thala",
+      "email": "tha@gmail.com",
+      "passwordHash": "9597",
+      "role": "User",
+      "createdAt": "2026-04-13T08:46:20.105Z"
+    },
+    {
+      "id": "4uhfeoftr",
+      "username": "vijay",
+      "email": "v@gmail.com",
+      "passwordHash": "12345",
+      "role": "User",
+      "createdAt": "2026-04-13T08:55:19.632Z"
+    },
+    {
+      "id": "qvnhfqcmv",
+      "username": "tt",
+      "email": "t@gamil.com",
+      "passwordHash": "13",
+      "role": "User",
+      "createdAt": "2026-04-15T04:18:31.950Z"
+    }
+  ],
+  "medicines": [
+    {
+      "id": "1",
+      "name": "Paracetamol 500mg",
+      "category": "Pain Relief",
+      "brand": "Panadol",
+      "price": 25,
+      "stock": 120,
+      "description": "Effective pain relief and fever reducer for adults.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "2",
+      "name": "Amoxicillin 250mg",
+      "category": "Antibiotics",
+      "brand": "Amoxil",
+      "price": 120,
+      "stock": 50,
+      "description": "Powerful antibiotic for bacterial infections.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "32",
+      "name": "Azithromycin 500mg",
+      "category": "Antibiotics",
+      "brand": "Zithromax",
+      "price": 250,
+      "stock": 35,
+      "description": "Wide-spectrum antibiotic for respiratory and skin infections.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "33",
+      "name": "Ciprofloxacin 500mg",
+      "category": "Antibiotics",
+      "brand": "Cipro",
+      "price": 180,
+      "stock": 45,
+      "description": "Treats various bacterial infections including UTIs.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "34",
+      "name": "Doxycycline 100mg",
+      "category": "Antibiotics",
+      "brand": "Vibramycin",
+      "price": 145,
+      "stock": 60,
+      "description": "Effective for acne, respiratory, and urinary infections.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "35",
+      "name": "Cephalexin 500mg",
+      "category": "Antibiotics",
+      "brand": "Keflex",
+      "price": 165,
+      "stock": 40,
+      "description": "Used to treat infections of the skin, bone, and ears.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "3",
+      "name": "Benadryl Cough Syrup",
+      "category": "Syrups",
+      "brand": "Johnson & Johnson",
+      "price": 95,
+      "stock": 85,
+      "description": "Fast-acting relief for dry and irritating coughs.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "4",
+      "name": "Ibuprofen 400mg",
+      "category": "Pain Relief",
+      "brand": "Advil",
+      "price": 45,
+      "stock": 150,
+      "description": "Non-steroidal anti-inflammatory drug (NSAID) for muscle pain.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "5",
+      "name": "Cetirizine 10mg",
+      "category": "Cold & Flu",
+      "brand": "Zyrtec",
+      "price": 85,
+      "stock": 200,
+      "description": "Provides 24-hour relief from allergy symptoms.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "6",
+      "name": "Gaviscon Liquid",
+      "category": "Syrups",
+      "brand": "Reckitt",
+      "price": 180,
+      "stock": 60,
+      "description": "Advanced relief from heartburn and acid indigestion.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "7",
+      "name": "Multivitamin Complex",
+      "category": "Tablets",
+      "brand": "Centrum",
+      "price": 450,
+      "stock": 100,
+      "description": "A complete daily vitamin and mineral supplement.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "8",
+      "name": "Ambroxol Hydrochloride",
+      "category": "Syrups",
+      "brand": "Mucosolvan",
+      "price": 75,
+      "stock": 45,
+      "description": "Thinning of mucus for easier removal in respiratory conditions.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "9",
+      "name": "Ventolin Inhaler",
+      "category": "Inhalers",
+      "brand": "GSK",
+      "price": 1250,
+      "stock": 30,
+      "description": "Relieves symptoms of asthma and COPD.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "10",
+      "name": "Visine Eye Drops",
+      "category": "Eye Drops",
+      "brand": "Johnson & Johnson",
+      "price": 110,
+      "stock": 70,
+      "description": "Relieves redness and irritation in the eyes.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "11",
+      "name": "Metformin 500mg",
+      "category": "Tablets",
+      "brand": "Glucophage",
+      "price": 65,
+      "stock": 90,
+      "description": "First-line medication for the treatment of type 2 diabetes.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "12",
+      "name": "Omeprazole 20mg",
+      "category": "Tablets",
+      "brand": "Prilosec",
+      "price": 180,
+      "stock": 55,
+      "description": "Reduces the amount of acid produced in the stomach.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "13",
+      "name": "Betadine Ointment",
+      "category": "Ointments",
+      "brand": "Mundipharma",
+      "price": 60,
+      "stock": 120,
+      "description": "Antiseptic for minor cuts, scrapes, and burns.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "14",
+      "name": "Salbutamol Syrup",
+      "category": "Syrups",
+      "brand": "Ventolin",
+      "price": 85,
+      "stock": 40,
+      "description": "Bronchodilator for respiratory relief in children.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "15",
+      "name": "Loratadine 10mg",
+      "category": "Cold & Flu",
+      "brand": "Claritin",
+      "price": 140,
+      "stock": 180,
+      "description": "Non-drowsy allergy relief tablets.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "16",
+      "name": "Dettol Liquid Antiseptic",
+      "category": "Syrups",
+      "brand": "Reckitt",
+      "price": 150,
+      "stock": 250,
+      "description": "Versatile antiseptic surface and skin cleanser.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "17",
+      "name": "Aspirin 81mg",
+      "category": "Tablets",
+      "brand": "Bayer",
+      "price": 35,
+      "stock": 300,
+      "description": "Low-dose aspirin for heart health maintenance.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "18",
+      "name": "Symbicort Turbuhaler",
+      "category": "Inhalers",
+      "brand": "AstraZeneca",
+      "price": 3200,
+      "stock": 15,
+      "description": "Combination inhaler for asthma and COPD management.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "19",
+      "name": "Pataday Eye Drops",
+      "category": "Eye Drops",
+      "brand": "Alcon",
+      "price": 1450,
+      "stock": 25,
+      "description": "Once-daily relief for itchy allergy eyes.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "20",
+      "name": "Voltaren Gel",
+      "category": "Ointments",
+      "brand": "GSK",
+      "price": 450,
+      "stock": 45,
+      "description": "Topical NSAID for arthritis pain relief.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "21",
+      "name": "Vitamin C 500mg",
+      "category": "Tablets",
+      "brand": "Celin",
+      "price": 40,
+      "stock": 400,
+      "description": "Daily immunity booster and antioxidant.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "22",
+      "name": "Amlodipine 5mg",
+      "category": "Tablets",
+      "brand": "Norvasc",
+      "price": 95,
+      "stock": 80,
+      "description": "Treating high blood pressure and chest pain.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "23",
+      "name": "Atorvastatin 20mg",
+      "category": "Tablets",
+      "brand": "Lipitor",
+      "price": 280,
+      "stock": 65,
+      "description": "Helps lower bad cholesterol and fats.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "24",
+      "name": "Calpol Syrup",
+      "category": "Syrups",
+      "brand": "GSK",
+      "price": 60,
+      "stock": 110,
+      "description": "Eases mild to moderate pain and fever in children.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "25",
+      "name": "Digene Gel",
+      "category": "Syrups",
+      "brand": "Abbott",
+      "price": 140,
+      "stock": 150,
+      "description": "Quick relief from acidity, gas, and stomach bloating.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "26",
+      "name": "Flovent HFA",
+      "category": "Inhalers",
+      "brand": "GSK",
+      "price": 2400,
+      "stock": 20,
+      "description": "Prevents asthma attacks by reducing airway swelling.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "27",
+      "name": "Pulmicort Flexhaler",
+      "category": "Inhalers",
+      "brand": "AstraZeneca",
+      "price": 2800,
+      "stock": 12,
+      "description": "Inhaled steroid for long-term asthma control.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "28",
+      "name": "Systane Ultra",
+      "category": "Eye Drops",
+      "brand": "Alcon",
+      "price": 850,
+      "stock": 40,
+      "description": "High-performance dry eye symptom relief.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "29",
+      "name": "Refresh Tears",
+      "category": "Eye Drops",
+      "brand": "Allergan",
+      "price": 650,
+      "stock": 55,
+      "description": "Lubricant eye drops for moisturizing irritation.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "30",
+      "name": "Neosporin Ointment",
+      "category": "Ointments",
+      "brand": "Johnson & Johnson",
+      "price": 95,
+      "stock": 90,
+      "description": "First-aid antibiotic to prevent infection in minor wounds.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "31",
+      "name": "Hydrocortisone Cream",
+      "category": "Ointments",
+      "brand": "Cortizone-10",
+      "price": 85,
+      "stock": 75,
+      "description": "Relieves itching and inflammation from rashes.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "32",
+      "name": "Azithromycin 500mg",
+      "category": "Antibiotics",
+      "brand": "Zithromax",
+      "price": 250,
+      "stock": 35,
+      "description": "Wide-spectrum antibiotic for respiratory and skin infections.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "36",
+      "name": "Naproxen 250mg",
+      "category": "Pain Relief",
+      "brand": "Aleve",
+      "price": 140,
+      "stock": 85,
+      "description": "Long-lasting relief from minor aches and pains.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "37",
+      "name": "Meftal Spas",
+      "category": "Pain Relief",
+      "brand": "Blue Cross",
+      "price": 60,
+      "stock": 120,
+      "description": "Relief from abdominal pain and menstrual cramps.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "38",
+      "name": "Tramadol 50mg",
+      "category": "Pain Relief",
+      "brand": "Ultram",
+      "price": 450,
+      "stock": 30,
+      "description": "Strong opioid pain medication for moderate to severe pain.",
+      "requiresPrescription": true
+    },
+    {
+      "id": "39",
+      "name": "Vicks Action 500",
+      "category": "Cold & Flu",
+      "brand": "Procter & Gamble",
+      "price": 45,
+      "stock": 200,
+      "description": "Effective relief from common cold symptoms.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "40",
+      "name": "Otrivin Nasal Spray",
+      "category": "Cold & Flu",
+      "brand": "GSK",
+      "price": 120,
+      "stock": 90,
+      "description": "Fast relief from nasal congestion and blocked nose.",
+      "requiresPrescription": false
+    },
+    {
+      "id": "41",
+      "name": "Strepsils Honey & Lemon",
+      "category": "Cold & Flu",
+      "brand": "Reckitt",
+      "price": 50,
+      "stock": 150,
+      "description": "Soothing lozenges for sore throat relief.",
+      "requiresPrescription": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD001",
+      "userId": "2",
+      "customerName": "John Doe",
+      "items": [
+        {
+          "medicineId": "1",
+          "name": "Paracetamol",
+          "quantity": 2,
+          "price": 25
+        }
+      ],
+      "date": "2026-04-12",
+      "total": 50,
+      "status": "Delivered",
+      "paymentStatus": "Paid",
+      "shippingAddress": "123 Main St, New York, 10001"
+    },
+    {
+      "userId": "bwc7d7y15",
+      "customerName": "Tinakes",
+      "items": [
+        {
+          "medicineId": "2",
+          "name": "Amoxicillin 250mg",
+          "quantity": 1,
+          "price": 120
+        }
+      ],
+      "total": 120,
+      "id": "ORD4338",
+      "date": "2026-04-15",
+      "status": "Processing",
+      "paymentStatus": "Paid",
+      "estimatedDelivery": "2026-04-18",
+      "shippingAddress": "456 Pharma Ave, Mumbai, 400001"
+    },
+    {
+      "id": "ORD5001",
+      "userId": "bwc7d7y15",
+      "customerName": "Rahul Sharma",
+      "items": [
+        {
+          "medicineId": "32",
+          "name": "Azithromycin 500mg",
+          "quantity": 2,
+          "price": 250
+        }
+      ],
+      "date": "2026-04-14",
+      "total": 502.5,
+      "status": "Delivered",
+      "paymentStatus": "Paid",
+      "shippingAddress": "Flat 202, Sunshine Apts, Delhi, 110001"
+    },
+    {
+      "id": "ORD5002",
+      "userId": "0m8e1wgc2",
+      "customerName": "Priya Patel",
+      "items": [
+        {
+          "medicineId": "1",
+          "name": "Paracetamol 500mg",
+          "quantity": 3,
+          "price": 25
+        },
+        {
+          "medicineId": "3",
+          "name": "Benadryl Cough Syrup",
+          "quantity": 1,
+          "price": 95
+        }
+      ],
+      "date": "2026-04-15",
+      "total": 172.5,
+      "status": "Pending",
+      "paymentStatus": "Paid",
+      "shippingAddress": "15/A Green View, Bangalore, 560001"
+    },
+    {
+      "id": "ORD5003",
+      "userId": "4uhfeoftr",
+      "customerName": "Anish Kumar",
+      "items": [
+        {
+          "medicineId": "18",
+          "name": "Symbicort Turbuhaler",
+          "quantity": 1,
+          "price": 3200
+        }
+      ],
+      "date": "2026-04-13",
+      "total": 3202.5,
+      "status": "Shipped",
+      "paymentStatus": "Paid",
+      "shippingAddress": "H.No 45, Sector 12, Chandigarh, 160012"
+    },
+    {
+      "id": "ORD5004",
+      "userId": "bwc7d7y15",
+      "customerName": "Sanya Malhotra",
+      "items": [
+        {
+          "medicineId": "28",
+          "name": "Systane Ultra",
+          "quantity": 1,
+          "price": 850
+        },
+        {
+          "medicineId": "13",
+          "name": "Betadine Ointment",
+          "quantity": 2,
+          "price": 60
+        }
+      ],
+      "date": "2026-04-14",
+      "total": 972.5,
+      "status": "Processing",
+      "paymentStatus": "Paid",
+      "shippingAddress": "A-Block, Anna Nagar, Chennai, 600040"
+    },
+    {
+      "id": "ORD5005",
+      "userId": "0m8e1wgc2",
+      "customerName": "Vikram Singh",
+      "items": [
+        {
+          "medicineId": "23",
+          "name": "Atorvastatin 20mg",
+          "quantity": 1,
+          "price": 280
+        },
+        {
+          "medicineId": "22",
+          "name": "Amlodipine 5mg",
+          "quantity": 1,
+          "price": 95
+        }
+      ],
+      "date": "2026-04-15",
+      "total": 377.5,
+      "status": "Pending",
+      "paymentStatus": "Paid",
+      "shippingAddress": "Near Mall Road, Shimla, 171001"
+    },
+    {
+      "id": "ORD5006",
+      "userId": "4uhfeoftr",
+      "customerName": "Neha Gupta",
+      "items": [
+        {
+          "medicineId": "39",
+          "name": "Vicks Action 500",
+          "quantity": 5,
+          "price": 45
+        }
+      ],
+      "date": "2026-04-14",
+      "total": 227.5,
+      "status": "Delivered",
+      "paymentStatus": "Paid",
+      "shippingAddress": "Street 4, Rajendra Nagar, Hyderabad, 500030"
+    },
+    {
+      "id": "ORD5007",
+      "userId": "bwc7d7y15",
+      "customerName": "Karan Johar",
+      "items": [
+        {
+          "medicineId": "9",
+          "name": "Ventolin Inhaler",
+          "quantity": 1,
+          "price": 1250
+        },
+        {
+          "medicineId": "41",
+          "name": "Strepsils Honey & Lemon",
+          "quantity": 3,
+          "price": 50
+        }
+      ],
+      "date": "2026-04-15",
+      "total": 1402.5,
+      "status": "Shipped",
+      "paymentStatus": "Paid",
+      "shippingAddress": "Bunglow 7, Bandra West, Mumbai, 400050"
+    },
+    {
+      "id": "ORD5008",
+      "userId": "0m8e1wgc2",
+      "customerName": "Aditi Rao",
+      "items": [
+        {
+          "medicineId": "11",
+          "name": "Metformin 500mg",
+          "quantity": 2,
+          "price": 65
+        }
+      ],
+      "date": "2026-04-13",
+      "total": 132.5,
+      "status": "Delivered",
+      "paymentStatus": "Paid",
+      "shippingAddress": "Civil Lines, Jaipur, 302006"
+    },
+    {
+      "id": "ORD5009",
+      "userId": "4uhfeoftr",
+      "customerName": "Arjun Reddy",
+      "items": [
+        {
+          "medicineId": "25",
+          "name": "Digene Gel",
+          "quantity": 1,
+          "price": 140
+        },
+        {
+          "medicineId": "37",
+          "name": "Meftal Spas",
+          "quantity": 1,
+          "price": 60
+        }
+      ],
+      "date": "2026-04-15",
+      "total": 202.5,
+      "status": "Processing",
+      "paymentStatus": "Paid",
+      "shippingAddress": "Jubilee Hills, Hyderabad, 500033"
+    },
+    {
+      "id": "ORD5010",
+      "userId": "bwc7d7y15",
+      "customerName": "Deepika Padukone",
+      "items": [
+        {
+          "medicineId": "21",
+          "name": "Vitamin C 500mg",
+          "quantity": 10,
+          "price": 40
+        }
+      ],
+      "date": "2026-04-14",
+      "total": 402.5,
+      "status": "Delivered",
+      "paymentStatus": "Paid",
+      "shippingAddress": "Worli Sea Face, Mumbai, 400030"
+    },
+    {
+      "id": "ORD6001",
+      "userId": "0m8e1wgc2",
+      "customerName": "Suresh Raina",
+      "items": [
+        {
+          "medicineId": "34",
+          "name": "Doxycycline 100mg",
+          "quantity": 1,
+          "price": 145
+        }
+      ],
+      "date": "2026-04-14",
+      "total": 147.5,
+      "status": "Cancelled",
+      "paymentStatus": "Unpaid",
+      "shippingAddress": "Model Town, Ludhiana, 141002"
+    },
+    {
+      "id": "ORD6002",
+      "userId": "4uhfeoftr",
+      "customerName": "Rishabh Pant",
+      "items": [
+        {
+          "medicineId": "12",
+          "name": "Omeprazole 20mg",
+          "quantity": 1,
+          "price": 180
+        }
+      ],
+      "date": "2026-04-15",
+      "total": 182.5,
+      "status": "Cancelled",
+      "paymentStatus": "Unpaid",
+      "shippingAddress": "Roorkee Road, Meerut, 250001"
+    },
+    {
+      "userId": "bwc7d7y15",
+      "customerName": "gff",
+      "shippingAddress": "sdsgf, aeddf, 456",
+      "items": [
+        {
+          "medicineId": "34",
+          "name": "Doxycycline 100mg",
+          "quantity": 1,
+          "price": 145
+        }
+      ],
+      "total": 147.5,
+      "id": "ORD4959",
+      "date": "2026-04-15",
+      "status": "Processing",
+      "paymentStatus": "Paid",
+      "estimatedDelivery": "2026-04-18"
+    },
+    {
+      "userId": "bwc7d7y15",
+      "customerName": "vh",
+      "shippingAddress": "hgj, g, ",
+      "items": [
+        {
+          "medicineId": "2",
+          "name": "Amoxicillin 250mg",
+          "quantity": 1,
+          "price": 120
+        }
+      ],
+      "total": 122.5,
+      "id": "ORD7589",
+      "date": "2026-04-15",
+      "status": "Processing",
+      "paymentStatus": "Paid",
+      "estimatedDelivery": "2026-04-18"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "title": "Welcome!",
+      "message": "Welcome to the E-Pharmacy system.",
+      "type": "System",
+      "target": "All",
+      "createdAt": "2026-04-13T12:30:18.000Z",
+      "readBy": []
+    },
+    {
+      "title": "feedback",
+      "message": "this web site is good ",
+      "type": "Info",
+      "target": "All",
+      "id": "zuoz8s1rz",
+      "createdAt": "2026-04-15T04:54:52.278Z",
+      "readBy": []
+    }
+  ],
+  "reviews": []
+}
