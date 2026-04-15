@@ -43,7 +43,7 @@ export default async function DashboardLayout({
            </nav>
            
            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              <div style={{ textAlign: 'right', display: 'none', md: 'block' }}>
+              <div className="desktop-only" style={{ textAlign: 'right' }}>
                  <p style={{ fontSize: '0.85rem', fontWeight: 800, color: '#1e293b' }}>{user.username}</p>
                  <p style={{ fontSize: '0.7rem', fontWeight: 700, color: '#3b82f6' }}>Customer Account</p>
               </div>

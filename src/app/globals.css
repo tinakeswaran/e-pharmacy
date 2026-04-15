@@ -32,6 +32,10 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
 }
 
+.desktop-only {
+  display: block;
+}
+
 .btn-premium {
   background: var(--text-main);
   color: white;
@@ -75,4 +79,10 @@ body {
 
 .animate-fade-in {
   animation: fadeIn 0.4s ease-out;
+}
+
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none !important;
+  }
 }
